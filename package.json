@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
-    "vue": "^2.6.10"
+    "element-ui": "^2.13.0",
+    "vue": "^2.6.10",
+    "vue-burger-menu": "^2.0.5",
+    "vue-carousel-3d": "^0.2.0",
+    "vue-quick-menu": "^1.0.7",
+    "vue-waterfall": "^1.0.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -18,12 +23,14 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
-    "root": true,
+    "root": false,
     "env": {
-      "node": true
+      "node": false
     },
     "extends": [
       "plugin:vue/essential",
