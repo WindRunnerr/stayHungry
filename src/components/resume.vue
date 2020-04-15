@@ -7,13 +7,13 @@
 <script>
   export default {
     name: "resume",
-    components: {},
+    components: {  },
     data () {
       return {
       }
     },
     mounted () {
-      this.utils.color16 = ''
+      window.uu = this
     },
     methods: {
       singleClick (e) {

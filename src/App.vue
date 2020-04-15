@@ -35,7 +35,6 @@
       }
     },
     mounted () {
-      window.hehe = this
     }
   }
 </script>
